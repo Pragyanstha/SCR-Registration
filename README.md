@@ -9,7 +9,7 @@ SCRNet is a deep learning-based method for rigid registration of X-ray and CT im
 ## Requirements and Installation
 The code is tested on Ubuntu 20.04.6 with RTX 3090 (CUDA 12.0). The following packages are required to run the code:
 - Python ^3.9
-- Poetry ^1.7.1
+- Poetry ^1.7.1  
 We recommend using [pyenv](https://github.com/pyenv/pyenv) to manage the Python version and [poetry](https://python-poetry.org/) to manage the dependencies.  
 Please refer to the official websites for the installation of pyenv and poetry. To install the dependencies, run the following command in the root directory of the repository:
 ```bash
