@@ -1,0 +1,10 @@
+modelname: "posenet"
+datadir: "data/VOL-17-1882_CIOS_FUSION"
+weightpath: "weights/PoseNet/VOL-17-1882_CIOS_FUSION.ckpt"
+resultdir: "results/PoseNet/VOL-17-1882_CIOS_FUSION"
+save_overlay: False
+
+model:
+  batch_size: 24
+  lr: 0.0001
+  pad: False

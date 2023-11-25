@@ -1,0 +1,12 @@
+modelname: "dflnet"
+datadir: "data/VOL-17-1882_CIOS_FUSION"
+weightpath: "weights/DFLNet/VOL-17-1882_CIOS_FUSION.ckpt"
+resultdir: "results/DFLNet/VOL-17-1882_CIOS_FUSION"
+save_overlay: False
+save_heatmaps: False
+
+model:
+  batch_size: 24
+  lr: 0.0001
+  pad: False
+  heatmap: True

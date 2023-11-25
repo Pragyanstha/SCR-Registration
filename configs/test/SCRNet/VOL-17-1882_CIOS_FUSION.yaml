@@ -1,0 +1,14 @@
+modelname: "scrnet"
+datadir: "data/VOL-17-1882_CIOS_FUSION"
+weightpath: "weights/SCRNet/VOL-17-1882_CIOS_FUSION.ckpt"
+resultdir: "results/SCRNet/VOL-17-1882_CIOS_FUSION"
+th: 0
+save_pointcloud: False
+save_overlay: False
+type: "both"
+
+model:
+  norm: 100
+  batch_size: 12
+  lr: 0.0001
+  pad: False
