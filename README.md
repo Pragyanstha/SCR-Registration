@@ -5,9 +5,7 @@ Currently, we provide the test dataset used for a single patient data (VOL-17-18
 ## Introduction
 SCRNet is a deep learning-based method for rigid registration of X-ray and CT images. The network is trained to regress the scene coordinates of the X-ray image from the CT image. The scene coordinates are then used to compute the correspondences between the X-ray and CT images. The correspondences are used to compute the rigid transformation between the X-ray and CT images. The paper can be found [here](https://link.springer.com/chapter/10.1007/978-3-031-43999-5_74).
 ![Corresponeces](./assets/correspondences.png)
-
-<img src="./assets/17-1882-geometry.gif" width="600" />
-<img src="./assets/17-1882-01722-registration.gif" width="600" />
+![Registration](./assets/17-1882-01722-registration.gif)
 
 ## Requirements and Installation
 The code is tested on Ubuntu 20.04.6 with RTX 3090 (CUDA 12.0). The following packages are required to run the code:
