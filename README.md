@@ -6,6 +6,9 @@ Currently, we provide the test dataset used for a single patient data (VOL-17-18
 SCRNet is a deep learning-based method for rigid registration of X-ray and CT images. The network is trained to regress the scene coordinates of the X-ray image from the CT image. The scene coordinates are then used to compute the correspondences between the X-ray and CT images. The correspondences are used to compute the rigid transformation between the X-ray and CT images. The paper can be found [here](https://link.springer.com/chapter/10.1007/978-3-031-43999-5_74).
 ![Corresponeces](./assets/correspondences.png)
 
+<img src="./assets/17-1882-geometry.gif" width="600" />
+<img src="./assets/17-1882-01722-registration.gif" width="600" />
+
 ## Requirements and Installation
 The code is tested on Ubuntu 20.04.6 with RTX 3090 (CUDA 12.0). The following packages are required to run the code:
 - Python ^3.9
@@ -56,14 +59,18 @@ We thank the authors of [Automatic annotation of hip anatomy in fluoroscopy for 
 ## Citation
 If you find this repository useful, please cite our paper:
 ```
-@inproceedings{10.1007/978-3-031-43999-5_74,
-title = {X-Ray to CT Rigid Registration Using Scene Coordinate Regression},
-author = {Shrestha, Pragyan and Xie, Chun and Shishido, Hidehiko and Yoshii, Yuichi and Kitahara, Itaru},
-publisher = {Springer-Verlag},
-pages = {781–790}
-year = {2023},
-isbn = {978-3-031-43998-8},
-url = {https://doi.org/10.1007/978-3-031-43999-5_74},
-doi = {10.1007/978-3-031-43999-5_74},
+@InProceedings{10.1007/978-3-031-43999-5_74,
+author="Shrestha, Pragyan
+and Xie, Chun
+and Shishido, Hidehiko
+and Yoshii, Yuichi
+and Kitahara, Itaru",
+title="X-Ray to CT Rigid Registration Using Scene Coordinate Regression",
+booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2023",
+year="2023",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="781--790",
+isbn="978-3-031-43999-5"
 }
 ```
