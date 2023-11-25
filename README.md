@@ -3,7 +3,7 @@ Code Repository for the paper accepted at MICCAI 2023 "X-Ray to CT Rigid Registr
 Currently, we provide the test dataset used for a single patient data (VOL-17-1882) from the paper, thus only the inference is supported. Due to the large size of the training dataset, we plan to release the scripts used for generating the simulated data instead. Thanks for your patience.  
 
 ## Introduction
-SCRNet is a deep learning-based method for rigid registration of X-ray and CT images. The network is trained to regress the scene coordinates of the X-ray image from the CT image. The scene coordinates are then used to compute the correspondences between the X-ray and CT images. The correspondences are used to compute the rigid transformation between the X-ray and CT images. 
+SCRNet is a deep learning-based method for rigid registration of X-ray and CT images. The network is trained to regress the scene coordinates of the X-ray image from the CT image. The scene coordinates are then used to compute the correspondences between the X-ray and CT images. The correspondences are used to compute the rigid transformation between the X-ray and CT images. The paper can be found [here](https://link.springer.com/chapter/10.1007/978-3-031-43999-5_74).
 ![Corresponeces](./assets/correspondences.png)
 
 ## Requirements and Installation
